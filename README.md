@@ -1,5 +1,5 @@
 
-#MIPS Graphics 
+# MIPS Graphics 
 
 Using MIPS Assembly and MIPS emulator called MARS gradient graphics with text was created.
 Using heap memory addr to mapping picture data.
