@@ -192,7 +192,7 @@ NormalDistanse:
 	mul.s	$f4	$f4	$f4	# (W/2)**2
 	add.s	$f4	$f4	$f3
 	
-	div.s	$f6	$f6	$f4	# ((y - H/2) **2 + (x - W/2)**2) / ((H/2)**2 + (W/2)**2)
+	div.s	$f6	$f6	$f3	# ((y - H/2) **2 + (x - W/2)**2) / ((H/2)**2 + (W/2)**2)
 	
 	li $t0	0x000000FF
 	mtc1	$t0	$f7	#W
